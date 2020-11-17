@@ -1,0 +1,100 @@
+* {
+  margin:0 ; 
+  padding: 0;
+}
+#wholePage {
+  height: 100vh;
+  width:100%;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#quote-box {
+  width:50%;
+  border: 5px solid black;
+  height: auto;
+}
+
+#relative button{
+  font-size: 20px;
+  padding: 10px;
+  background-color: yellow;
+}
+#relative {
+  margin:20px 0;
+}
+#text {
+  margin-top:20px;
+}
+#relative {
+  display: flex;
+  padding:20px;
+}
+#new-quote{
+  margin-left:auto;
+}
+#relative a{
+  margin-left:10px;
+}
+#text {
+  text-align: center;
+}
+#beqa {
+  background-color: yellow;
+}
+#author {
+  width: 90%;
+  text-align: end;
+  margin-top: 20px;
+}
+button {
+  border:none;
+  color:black;
+  cursor: pointer;
+} 
+#quote-box{
+  background-color: white;
+}
+#title {
+  margin-bottom: 20px;
+}
+#random {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+#random i {
+  font-size: 30px;
+}
+@media all and (max-width:650px) {
+  #relative {
+    flex-wrap: wrap;
+  }
+  #new-quote{
+    flex:1 1 100%;
+    margin-top: 10px;
+  }
+  #text{
+    font-size: 20px;
+  }
+  #author {
+    font-size: 15px;
+  }
+  relative button {
+    font-size: 15px;
+  }
+
+
+}
+
+@media all and (max-width:465px) {
+  #quote-box{
+     width:80%;
+   }
+}
+@media all and (max-width:500px) {
+  #random i {
+    font-size: 20px;
+  }
+}
